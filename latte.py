@@ -1,6 +1,6 @@
 drinks = ['Latte', 'Cappuccino', 'Espresso', 'Mocha']
 snacks = ['Cookies', 'Muffin', 'Croissant']
-specials = ['Chai Tea', 'Hot Chocolate', 'Matcha Latte']
+specials = ['Gasoline']
 
 regDrinkPrice = 3.50
 lrgDrinkPrice = 4.50
@@ -8,7 +8,7 @@ lrgDrinkPrice = 4.50
 #print menu
 print('Welcome to the Coffee Shop!')
 print('\nHere is our drink menu: ')
-print("(Regular: 3.50)  (Large: 4.50)")
+print("(Regular: £3.50)  (Large: £4.50)")
 for drink in drinks:
   print(drink)
   
@@ -17,9 +17,10 @@ print('(All snacks £2.00)')
 for snack in snacks:
   print(snack)
   
-print('\nHere is our special menu: ')
+print("Today's special menu item is: ")
 for special in specials:
   print(special)
+  print("Buy today at just £5.00!")
 
 #create empty lists to store purchases
 drinksPurchase = []
